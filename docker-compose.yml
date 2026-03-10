@@ -1,0 +1,6 @@
+﻿services:
+  omega.quantix.core:
+    image: omega.quantix.core
+    build:
+      context: .
+      dockerfile: Omega.QuantiX.Core/Dockerfile
