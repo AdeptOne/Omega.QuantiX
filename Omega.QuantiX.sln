@@ -7,6 +7,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		docker-compose.yml = docker-compose.yml
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Omega.QuantiX.Domain", "Omega.QuantiX.Domain\Omega.QuantiX.Domain.csproj", "{EBBC97C7-F1CA-4236-978F-89190A4355CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Omega.QuantiX.Infrastructure.PostgreSQL", "Omega.QuantiX.Infrastructure.PostgreSQL\Omega.QuantiX.Infrastructure.PostgreSQL.csproj", "{6618DE3A-283D-40D7-9B90-0442C923E06B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,5 +21,13 @@ Global
 		{BD6A3C9B-D83B-425F-B595-35FAD769764D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BD6A3C9B-D83B-425F-B595-35FAD769764D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BD6A3C9B-D83B-425F-B595-35FAD769764D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBBC97C7-F1CA-4236-978F-89190A4355CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBBC97C7-F1CA-4236-978F-89190A4355CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBBC97C7-F1CA-4236-978F-89190A4355CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBBC97C7-F1CA-4236-978F-89190A4355CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6618DE3A-283D-40D7-9B90-0442C923E06B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6618DE3A-283D-40D7-9B90-0442C923E06B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6618DE3A-283D-40D7-9B90-0442C923E06B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6618DE3A-283D-40D7-9B90-0442C923E06B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
