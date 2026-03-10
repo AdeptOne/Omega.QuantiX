@@ -2,4 +2,7 @@
   <ItemGroup>
     <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Omega.QuantiX.Core\Omega.QuantiX.Core.csproj" />
+  </ItemGroup>
 </Project>

@@ -10,4 +10,8 @@
       </Content>
     </ItemGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\Omega.QuantiX.Domain\Omega.QuantiX.Domain.csproj" />
+    </ItemGroup>
+
 </Project>
